@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="TCyAoiJu_5PX0N5PUD4H" name="Page-1">
+        <mxGraphModel dx="1638" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;arcSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="400" width="780" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Domain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="380" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="120" width="660" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Infra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="100" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="13" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-10" y="547.5" width="140" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Recipes" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6F0000;fontColor=#ffffff;fillColor=none;strokeWidth=3;" vertex="1" parent="16">
+                    <mxGeometry width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Fornecer os fatores" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="16">
+                    <mxGeometry x="10" y="45" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="220" y="547.5" width="144" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Preços" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6F0000;fontColor=#ffffff;fillColor=none;strokeWidth=3;" vertex="1" parent="17">
+                    <mxGeometry width="144" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Fornecer os preços" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="17">
+                    <mxGeometry x="12" y="50" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="90" y="420" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="costCalculator" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6F0000;fontColor=#ffffff;fillColor=none;strokeWidth=3;" vertex="1" parent="18">
+                    <mxGeometry x="10" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Fornecer o preço de custo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="18">
+                    <mxGeometry width="160" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
