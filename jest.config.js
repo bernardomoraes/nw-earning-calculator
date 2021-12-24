@@ -1,8 +1,8 @@
 module.exports = {
   collectCoverageFrom: [
-    '<rootDir>/src/**/*.ts',
+    '<rootDir>/src/**/*.js',
     '!<rootDir>/src/main/**',
-    '!<rootDir>/src/**/index.ts'
+    '!<rootDir>/src/**/index.js'
   ],
   coverageDirectory: 'coverage',
   coverageProvider: 'babel',
@@ -10,14 +10,10 @@ module.exports = {
     '@/tests/(.+)': '<rootDir>/tests/$1',
     '@/(.+)': '<rootDir>/src/$1'
   },
-  testMatch: ['**/*.spec.ts'],
+  testMatch: ['**/*.spec.js'],
   roots: [
     '<rootDir>/src',
     '<rootDir>/tests'
   ],
-  transform: {
-    '\\.ts$': 'ts-jest'
-  },
-  clearMocks: true,
-  setupFiles: ['dotenv/config']
+  clearMocks: true
 }
