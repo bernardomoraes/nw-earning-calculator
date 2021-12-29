@@ -1,9 +1,8 @@
 const Recipes = require('../src/providers/recipes/preciousIngots')
-const PreciousIngotCostCalculator = require('../src/providers/calculators/preciousIngots')
 const CalculatorFactory = require('../src/factories/calculatorFactory')
 
 describe('Precious ingot', () => {
-  const preciousIngotCostCalculator = new CalculatorFactory(PreciousIngotCostCalculator, Recipes)
+  const preciousIngotCostCalculator = new CalculatorFactory().instancePreciousIngotsCalculator()
 
   const recipes = new Recipes()
   const mocks = {
