@@ -8,10 +8,14 @@ on:
 jobs:
   check-application:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        nodeVersions: ['14.17.5', '16.8.0']
+
     steps:
       - uses: actions/checkout@v2 # baixa os arquivos na máquina
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: ${{ matrix.nodeVersions }}
       - run: npm install
       - run: npm run test
